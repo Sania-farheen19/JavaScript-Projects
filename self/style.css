@@ -1,0 +1,209 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  h2 {
+    color: #ff004f;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header {
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    color: #ff004f;
+  }
+  
+  .header ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header ul li {
+    margin-left: 20px;
+  }
+ 
+  
+  .header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s, color 0.3s;
+  }
+  .header ul li a:hover {
+    transform: scale(2);
+    color: #ff004f; /* Change this to any color you prefer */
+   
+  }
+  
+  .home, .about, .skills, .projects, .contact {
+    padding: 60px 20px;
+    text-align: center;
+    
+
+  }
+  #home h2{
+    font-size: 80px;
+    color: #fff;
+  }
+  #home p{
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .home .highlight {
+    color: #ff004f;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    background-color: #ff004f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+ 
+  .contact-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .contact-button a:active{
+    background: #fff;
+    color: #ff004f;
+  }
+  .about p {
+    max-width: 600px;  /* Set a maximum width for the paragraph */
+    margin: 0 auto;    /* Center the paragraph */
+    line-height: 1.6;  /* Optional: improve readability with line-height */
+  }
+  .project-card {
+    background-color: #222;
+    padding: 25px;
+    border-radius: 8px;
+    width: 250px; /* Increase the width of the project card here */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .project-card p{
+    margin: 12px 0px;
+  }
+  .project-card button{
+    padding: 8px 10px;
+    background-color: #ff004f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .skills-container, .project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card, .project-card {
+    background-color: #222;
+    padding: 25px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skill-card:hover, .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 0, 79, 0.5);
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 70%;
+    padding: 15px;
+    margin: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #ff004f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #ff004f;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #ff004f;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #fff;
+  }
+  
+  
+  /* Animation for scrolling */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .animate-on-scroll.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .skills-container, .project-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  button:active{
+    background-color: #fff;
+    color: #ff004f;
+    
+  }

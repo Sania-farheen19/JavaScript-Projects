@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+  
+    
+}
+#nav{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#nav-part1{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h3{
+    font-size: 23px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size: 23px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 23px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 80px;
+    padding: 40px 60px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+#content h3{
+    font-size: 35px;
+    font-weight: 500;
+
+}
+#content h1{
+    font-size: 130px;
+    font-weight: 400;
+    line-height: 130px;
+    letter-spacing: -10px;
+    word-spacing: 10px;
+    color: whi;
+
+}
+#case{
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+#case h5{
+    font-size: 20px;
+    font-weight: 550;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap:40px
+}
+#right #line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+#projects{
+    background: linear-gradient(#feadeb, #a4a6c5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px ;
+    gap: 70px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(173, 209, 220);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ00b8euLLZE13GIIMh7QR84aVUsrkAcz1NCZ2h044H6inw6iP);
+    
+}
+
+#img2{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQzswLuI-v-yL6MHieLimvhtw-sU1alybagpBQwwynFiTMrLEH);
+    
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 14px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 20px;
+    color: rgb(85, 83, 83);
+    font-weight: 500;
+}

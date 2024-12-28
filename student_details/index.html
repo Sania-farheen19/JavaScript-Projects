@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Details</title>
+    <link rel="stylesheet" href="./styling/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box formInput">
+        <h3 class="title">STUDENT DETAILS</h3>
+        <form>
+          <div class="fields">
+            <label for="schoolname">School Name:</label>
+            <input id="schoolname"  />
+          </div>
+          <div class="fields">
+            <label for="studentname">Student Name:</label>
+            <input id="studentname"  />
+          </div>
+          <div class="fields">
+            <label for="dateofbirth">Date of birth:</label>
+            <input id="dateofbirth" type="text" />
+          </div>
+          <div class="fields">
+            <label for="class">Class:</label>
+            <input id="class" type="text" />
+          </div>
+          <div class="fields">
+            <label for="rollnumber">Roll Number:</label>
+            <input id="rollnumber" type="number" />
+          </div>
+
+          <div class="fields">
+            <label for="contactnumber">Contact Number:</label>
+            <input id="contactnumber" type="number" />
+          </div>
+          <div class="buttonContainer">
+          <button class="btn" onclick="updateIDcard()" type="button">
+            SUBMIT
+          </button>
+          <button class="btn" type="reset">
+            CLEAR ALL
+          </button>
+          </div>
+        </form>
+      </div>
+      <div class="box card">
+        <h3 id="schoolNameVal" class="title">SCHOOL NAME</h3>
+        <div class="imageContainer">
+        <img id="profile" src="./assets/abc.jpg" alt="profilepic">
+        </div>
+        <div class="fields">
+          <label >Student Name:</label>
+          <label id="studentNameVal">SANIA</label>
+        </div>
+        <div class="fields">
+          <label >Date of birth:</label>
+          <label id="dateofbirthVal">30/01/2002</label>
+        </div>
+        <div class="fields">
+          <label >Class:</label>
+          <label id="classVal">10</label>
+        </div>
+        <div class="fields">
+          <label >Roll no:</label>
+          <label id="rollnumberval">201</label>
+        </div>
+        <div class="fields">
+          <label >Contact No:</label>
+          <label id="contactnumberVal">908765324</label>
+        </div>
+        <div class="buttonContainer">
+        <button class="btn print" type="button" onclick="PrintIdcard()" >Print Student Details</button></div>
+      </div>
+    </div>
+  
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

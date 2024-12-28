@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(163, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(28, 128, 128);
+    box-shadow: -5px -5px 10px white, 5px 5px 10px black;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.playlist{
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+    
+}
+.playlist>li{
+   
+   margin-bottom:10px;
+   background-color: white;
+   box-shadow: -2px -2px 3px rgb(255 255 255), 2px 2px 3px #746b2e;
+   padding:  4px 10px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   width: 90%;
+   
+}
+.playlist>li>img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.circle {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    
+    
+}
+.button{
+    cursor: pointer;
+    
+}
+
+.volume{
+    position: absolute;
+    right: -73px;
+    transform: rotate(-90deg);
+    top: 126px;
+    width: 188px;
+    height: 5px;
+}
+.hide{
+    display: none;
+}
+.progress{
+    
+    background-color: white;
+    width: 88%;
+    border-radius: 10px;
+    margin-left: 14px;
+    border: 1px solid rgb(96, 82, 103);
+    box-shadow: -1px -1px 2px rgb(255 255 255);
+}
+.progress > .status{
+    background-color:rgb(124, 118, 146);
+   height: 5px;
+    width: 0%;
+    border-radius: 10px;
+}

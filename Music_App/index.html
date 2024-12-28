@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music App</title>
+    <link rel="stylesheet" href="./styling/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <ul class="playlist" id="playlist">
+        <li data-src="./assets/songs/01 - Tu Jaane Na - Atif Aslam - DownloadMing.SE.mp3"><img src="./assets/images/1_india.jpg" alt="first song">song 1</li>
+        <li data-src="./assets/songs/02 - Backbone - DownloadMing.SE.mp3"><img src="./assets/images/2_london.jpg" alt="second song">song 2</li>
+        <li data-src="./assets/songs/03 - Enna Sona - DownloadMing.SE.mp3"><img src="./assets/images/3_pakistan.jpg" alt="third song">song 3</li>
+        <li data-src="./assets/songs/04-Kabhi Mein Kabhi Tum - (Raag.Fm).mp3"><img src="./assets/images/4_paris.jpg" alt="fourth song" >song 4</li>
+      </ul>
+    
+    <div class="progress">
+      <div id="songStatus" class="status"></div>
+    </div>
+    <div class="buttonContainer">
+      <button class="button circle" onclick="previousTrack()">prev</button>
+      <button id="playBtn" class="button circle" onclick="playTrack()">play</button>
+      
+      <button  id="pauseBtn" class="button circle hide" onclick="pauseTrack()">pause</button>
+      <button class="button circle" onclick="nextTrack()">next</button>
+    </div>
+    <input type="range" id="volume"  class="volume" min="0" max="1" value="0.5" step="0.1" oninput="volumeController()" >
+    </div>
+   
+
+    <script src="./scripts/script.js">
+
+    </script>
+  </body>
+</html>

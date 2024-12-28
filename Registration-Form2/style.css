@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    
+    background:url("https://images.unsplash.com/photo-1439853949127-fa647821eba0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    background-position: center;
+
+}
+
+#form{
+    background: rgba(255, 255, 255, 0.2);
+    width: 550px;
+    margin: 20vh auto 0 auto;
+    padding:25px ;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+
+}
+h1{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.form-control input{
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: aliceblue;
+    padding: 5px;
+    width: 100%;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+}
+#form #btn{
+    background-color:#431440;
+    width: 100%;
+    
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+    padding:10px ;
+
+}
+#form #btn:active{
+    background: #86378d;
+}
+.form-control .error{
+    color:red;
+    font-size: 14px;
+    margin: 10px;
+}
+.form-control.error input{
+    border:2px solid red;
+}
+.form-control.success input{
+    border:2px solid rgba(53, 184, 36, 0.769);
+}
+
+#message{
+    font-size: 20px;
+    color: rgb(54, 12, 78);
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}

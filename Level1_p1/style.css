@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#main >h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+   width: 100%;
+   text-align: center;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+   padding: 0px 30px 10px 30px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+}
+#nav-part2 i{
+    background-color: orangered;
+    margin-right:2px ;
+}
+ #nav h3{
+    
+    
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 40px;
+    padding: 5px 10px;
+    
+}
+#nav i{
+    
+    
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 40px;
+    padding: 5px 5px;
+    
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 16px;
+}
+#btn-login{
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+#btn-signup{
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    background-color:orangered;
+    font-size: 12px;
+    font-weight: 500;
+}
+#img1{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-30deg) ;
+    border-radius: 20px;
+}
+#img2{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-20deg);
+    border-radius: 20px;
+}
+#img3{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-10deg);
+    border-radius: 20px;
+}
+#img4{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    border-radius: 20px;
+}
+#btm-text{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 13px;
+    font-family:  Helvetica;
+}
